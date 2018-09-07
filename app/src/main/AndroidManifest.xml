@@ -16,10 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".Register"
-            android:label="@string/title_activity_register"
-            android:theme="@style/AppTheme"></activity>
+        <activity android:name=".DashBoard" />
+        <activity android:name=".RegisterActivity"></activity>
     </application>
 
 </manifest>

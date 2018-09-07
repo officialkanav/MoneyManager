@@ -6,9 +6,9 @@
     android:background="@drawable/mainback">
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/registerEmail_ID"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginLeft="100dp"
@@ -18,13 +18,13 @@
         android:ems="10"
         android:hint="@string/EmailTextField"
         android:inputType="textEmailAddress"
-        android:textSize="24sp" />
+        android:textSize="18sp" />
 
     <EditText
-        android:id="@+id/editText4"
+        android:id="@+id/regieterName_ID"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/editText"
+        android:layout_height="50dp"
+        android:layout_below="@+id/registerEmail_ID"
         android:layout_centerHorizontal="true"
         android:layout_marginLeft="100dp"
         android:layout_marginTop="10dp"
@@ -33,15 +33,15 @@
         android:ems="10"
         android:hint="@string/name"
         android:inputType="textPersonName"
-        android:textSize="24sp">
+        android:textSize="18sp">
 
     </EditText>
 
     <EditText
-        android:id="@+id/editText5"
+        android:id="@+id/registerPassword_ID"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/editText4"
+        android:layout_height="50dp"
+        android:layout_below="@+id/regieterName_ID"
         android:layout_centerHorizontal="true"
         android:layout_marginLeft="100dp"
         android:layout_marginTop="10dp"
@@ -50,13 +50,13 @@
         android:ems="10"
         android:hint="@string/PasswordTextField"
         android:inputType="textPassword"
-        android:textSize="24sp" />
+        android:textSize="18sp" />
 
     <EditText
-        android:id="@+id/editText7"
+        android:id="@+id/registerConfirmPassword_ID"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/editText5"
+        android:layout_height="50dp"
+        android:layout_below="@+id/registerPassword_ID"
         android:layout_centerHorizontal="true"
         android:layout_marginLeft="100dp"
         android:layout_marginTop="10dp"
@@ -65,7 +65,7 @@
         android:ems="10"
         android:hint="@string/confirm_password"
         android:inputType="textPassword"
-        android:textSize="24sp" />
+        android:textSize="18sp" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -79,7 +79,7 @@
         app:srcCompat="@drawable/dollar" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/registeringButton_ID"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"

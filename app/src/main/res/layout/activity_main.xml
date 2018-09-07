@@ -53,7 +53,7 @@
         android:id="@+id/loginButton_ID"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/loginPassword_ID"
+        android:layout_above="@+id/registerButton_ID"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="170dp"
         android:text="@string/log_in" />
