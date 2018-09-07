@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MoneyManager</string>
+    <string name="EmailTextField">Email</string>
+    <string name="PasswordTextField">Password</string>
+    <string name="log_in">Log In</string>
+    <string name="register">Register</string>
+    <string name="name">Name</string>
+    <string name="confirm_password">ConfirmPassword</string>
+    <string name="title_activity_register">Register</string>
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/mainback"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/loginLogo_ID"
+        android:layout_width="wrap_content"
+        android:layout_height="231dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="2dp"
+        android:contentDescription="@string/app_name"
+        app:srcCompat="@drawable/dollar" />
+
+    <EditText
+        android:id="@+id/loginEmail_ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+
+        android:background="#11000000"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/EmailTextField"
+        android:drawableLeft="@drawable/emailicon"
+        android:drawableStart="@drawable/emailicon"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/loginPassword_ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginEmail_ID"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="#11000000"
+        android:ems="10"
+        android:hint="@string/PasswordTextField"
+        android:inputType="textPassword"
+        android:textSize="30sp"
+        android:drawableLeft="@drawable/passwordicon"
+        android:drawableStart="@drawable/passwordicon"/>
+
+    <Button
+        android:id="@+id/loginButton_ID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginPassword_ID"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="170dp"
+        android:text="@string/log_in" />
+
+    <Button
+        android:id="@+id/registerButton_ID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/register" />
+
+</RelativeLayout>
