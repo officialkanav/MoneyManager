@@ -7,4 +7,41 @@
     tools:context=".DashBoard"
     android:background="@drawable/mainback">
 
+    <ListView
+        android:id="@+id/listViewID"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_alignParentTop="true"
+        />
+
+    <EditText
+        android:id="@+id/Product_ID"
+        android:layout_width="205dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/price_ID"
+        android:ems="10"
+        android:hint="Product"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/price_ID"
+        android:layout_width="205dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="63dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Price" />
+
+    <Button
+        android:id="@+id/add_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="ADD" />
+
 </RelativeLayout>
